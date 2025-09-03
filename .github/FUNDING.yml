@@ -12,4 +12,4 @@ otechie: # Replace with a single Otechie username
 lfx_crowdfunding: # Replace with a single LFX Crowdfunding project-name e.g., cloud-foundry
 
 # Cryptocurrency donation addresses
-custom: ["https://github.com/your-username/dominus-status#donations"]
+custom: ["https://github.com/Basyuk/dominus-status#donations"]

@@ -6,7 +6,7 @@ Thank you for your interest in contributing to Dominus Status Service! We welcom
 
 ### Reporting Bugs
 
-If you find a bug, please create an issue using our [bug report template](https://github.com/your-username/dominus-status/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+).
+If you find a bug, please create an issue using our [bug report template](https://github.com/Basyuk/dominus-status/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+).
 
 Please include:
 - Clear description of the problem
@@ -17,7 +17,7 @@ Please include:
 
 ### Suggesting Features
 
-We love new ideas! Please create a [feature request](https://github.com/your-username/dominus-status/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=%5BFEATURE%5D+) and describe:
+We love new ideas! Please create a [feature request](https://github.com/Basyuk/dominus-status/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=%5BFEATURE%5D+) and describe:
 - The problem you're trying to solve
 - Your proposed solution
 - Use cases and benefits
@@ -27,7 +27,7 @@ We love new ideas! Please create a [feature request](https://github.com/your-use
 
 1. **Fork the repository**
    ```bash
-   git clone https://github.com/your-username/dominus-status.git
+   git clone https://github.com/Basyuk/dominus-status.git
    cd dominus-status
    ```
 

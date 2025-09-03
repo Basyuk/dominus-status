@@ -6,8 +6,8 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![GitHub issues](https://img.shields.io/github/issues/your-username/dominus-status)
-![GitHub stars](https://img.shields.io/github/stars/your-username/dominus-status)
+![GitHub issues](https://img.shields.io/github/issues/Basyuk/dominus-status)
+![GitHub stars](https://img.shields.io/github/stars/Basyuk/dominus-status)
 
 Infrastructure status management service with support for two types of authentication: local and Keycloak.
 
@@ -224,8 +224,8 @@ curl -H "Authorization: Bearer $TOKEN" http://localhost:8000/status
 
 We welcome contributions from everyone! Here are some ways you can help:
 
-- 🐛 [Report bugs](https://github.com/your-username/dominus-status/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+)
-- 💡 [Request features](https://github.com/your-username/dominus-status/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=%5BFEATURE%5D+)
+- 🐛 [Report bugs](https://github.com/Basyuk/dominus-status/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+)
+- 💡 [Request features](https://github.com/Basyuk/dominus-status/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=%5BFEATURE%5D+)
 - 📝 Improve documentation
 - 🔧 Submit pull requests
 
@@ -246,23 +246,23 @@ Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our co
 
 If you encounter any bugs or issues, please:
 
-1. Check if the issue already exists in our [issue tracker](https://github.com/your-username/dominus-status/issues)
-2. If not, [create a new bug report](https://github.com/your-username/dominus-status/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+)
+1. Check if the issue already exists in our [issue tracker](https://github.com/Basyuk/dominus-status/issues)
+2. If not, [create a new bug report](https://github.com/Basyuk/dominus-status/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+)
 3. Include as much detail as possible (OS, Docker version, logs, etc.)
 
 ### 💡 Have an Idea?
 
 We'd love to hear your ideas for new features:
 
-1. [Submit a feature request](https://github.com/your-username/dominus-status/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=%5BFEATURE%5D+)
+1. [Submit a feature request](https://github.com/Basyuk/dominus-status/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=%5BFEATURE%5D+)
 2. Describe your use case and how it would benefit others
 3. We'll discuss it in the issue comments
 
 ### 🤝 Need Help?
 
 - Check our [documentation](#api-endpoints) first
-- Search through [existing issues](https://github.com/your-username/dominus-status/issues)
-- Create a new [discussion](https://github.com/your-username/dominus-status/discussions) for questions
+- Search through [existing issues](https://github.com/Basyuk/dominus-status/issues)
+- Create a new [discussion](https://github.com/Basyuk/dominus-status/discussions) for questions
 
 ## ₿ Cryptocurrency Donations
 
