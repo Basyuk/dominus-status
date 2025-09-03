@@ -264,11 +264,13 @@ We'd love to hear your ideas for new features:
 - Search through [existing issues](https://github.com/Basyuk/dominus-status/issues)
 - Create a new [discussion](https://github.com/Basyuk/dominus-status/discussions) for questions
 
-## ₿ Cryptocurrency Donations
+## Donation
+
+### ₿ Cryptocurrency Donations
 
 **Perfect for saying "thanks" with your favorite cryptocurrency!**
 
-### 🚀 Easy Method - NOWPayments
+#### 🚀 Easy Method - NOWPayments
 
 **[₿ Donate with Crypto →](https://nowpayments.io/donation/dominus)**
 
