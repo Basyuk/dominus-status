@@ -1,0 +1,170 @@
+version: '3.8'
+services:
+  dominus-status:
+    build: .
+    container_name: dominus-status
+    env_file:
+      - .env
+    environment:
+      - SERVICE_NAME=test-service
+      - STATE_PATH=/data/state
+      - MANAGE_USERNAME=${MANAGE_USERNAME:-admin}
+      - MANAGE_PASSWORD=${MANAGE_PASSWORD:-admin123}
+      - USE_HTTPS=${USE_HTTPS:-false}
+      - SSL_CERTFILE=${SSL_CERTFILE:-}
+      - SSL_KEYFILE=${SSL_KEYFILE:-}
+    hostname: msk-app1
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/data
+      - ./certs:/certs
+    user: "1000:1000"
+
+  dominus-status1:
+    build: .
+    container_name: dominus-status1
+    env_file:
+      - .env
+    environment:
+      - SERVICE_NAME=test-service
+      - STATE_PATH=/data/state
+      - MANAGE_USERNAME=${MANAGE_USERNAME:-admin}
+      - MANAGE_PASSWORD=${MANAGE_PASSWORD:-admin123}
+      - USE_HTTPS=${USE_HTTPS:-false}
+      - SSL_CERTFILE=${SSL_CERTFILE:-}
+      - SSL_KEYFILE=${SSL_KEYFILE:-}
+    hostname: vlg-app01
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./data1:/data
+      - ./certs:/certs
+    user: "1000:1000"
+
+  dominus-status2:
+    build: .
+    container_name: dominus-status2
+    env_file:
+      - .env
+    environment:
+      - SERVICE_NAME=test-service2
+      - STATE_PATH=/data/state
+      - MANAGE_USERNAME=${MANAGE_USERNAME:-admin}
+      - MANAGE_PASSWORD=${MANAGE_PASSWORD:-admin123}
+      - USE_HTTPS=${USE_HTTPS:-false}
+      - SSL_CERTFILE=${SSL_CERTFILE:-}
+      - SSL_KEYFILE=${SSL_KEYFILE:-}
+    hostname: msk-app01
+    ports:
+      - "8002:8000"
+    volumes:
+      - ./data2:/data
+      - ./certs:/certs
+    user: "1000:1000"
+
+  dominus-status3:
+    build: .
+    container_name: dominus-status3
+    env_file:
+      - .env
+    environment:
+      - SERVICE_NAME=test-service2
+      - STATE_PATH=/data/state
+      - MANAGE_USERNAME=${MANAGE_USERNAME:-admin}
+      - MANAGE_PASSWORD=${MANAGE_PASSWORD:-admin123}
+      - USE_HTTPS=${USE_HTTPS:-false}
+      - SSL_CERTFILE=${SSL_CERTFILE:-}
+      - SSL_KEYFILE=${SSL_KEYFILE:-}
+    hostname: msk-app2
+    ports:
+      - "8003:8000"
+    volumes:
+      - ./data3:/data
+      - ./certs:/certs
+    user: "1000:1000"
+
+  dominus-status4:
+    build: .
+    container_name: dominus-status4
+    env_file:
+      - .env
+    environment:
+      - SERVICE_NAME=test-service2
+      - STATE_PATH=/data/state
+      - MANAGE_USERNAME=${MANAGE_USERNAME:-admin}
+      - MANAGE_PASSWORD=${MANAGE_PASSWORD:-admin123}
+      - USE_HTTPS=${USE_HTTPS:-false}
+      - SSL_CERTFILE=${SSL_CERTFILE:-}
+      - SSL_KEYFILE=${SSL_KEYFILE:-}
+    hostname: vlg-app1
+    ports:
+      - "8004:8000"
+    volumes:
+      - ./data4:/data
+      - ./certs:/certs
+    user: "1000:1000"
+
+  dominus-status5:
+    build: .
+    container_name: dominus-status5
+    env_file:
+      - .env
+    environment:
+      - SERVICE_NAME=test-service3
+      - STATE_PATH=/data/state
+      - MANAGE_USERNAME=${MANAGE_USERNAME:-admin}
+      - MANAGE_PASSWORD=${MANAGE_PASSWORD:-admin123}
+      - USE_HTTPS=${USE_HTTPS:-false}
+      - SSL_CERTFILE=${SSL_CERTFILE:-}
+      - SSL_KEYFILE=${SSL_KEYFILE:-}
+    hostname: vlg-app1
+    ports:
+      - "8005:8000"
+    volumes:
+      - ./data5:/data
+      - ./certs:/certs
+    user: "1000:1000"
+
+  dominus-status6:
+    build: .
+    container_name: dominus-status6
+    env_file:
+      - .env
+    environment:
+      - SERVICE_NAME=test-service3
+      - STATE_PATH=/data/state
+      - MANAGE_USERNAME=${MANAGE_USERNAME:-admin}
+      - MANAGE_PASSWORD=${MANAGE_PASSWORD:-admin123}
+      - USE_HTTPS=${USE_HTTPS:-false}
+      - SSL_CERTFILE=${SSL_CERTFILE:-}
+      - SSL_KEYFILE=${SSL_KEYFILE:-}
+    hostname: msk-app1
+    ports:
+      - "8006:8000"
+    volumes:
+      - ./data6:/data
+      - ./certs:/certs
+    user: "1000:1000"
+
+  dominus-status7:
+    build: .
+    container_name: dominus-status7
+    env_file:
+      - .env
+    environment:
+      - SERVICE_NAME=test-service3
+      - STATE_PATH=/data/state
+      - MANAGE_USERNAME=${MANAGE_USERNAME:-admin}
+      - MANAGE_PASSWORD=${MANAGE_PASSWORD:-admin123}
+      - USE_HTTPS=${USE_HTTPS:-false}
+      - SSL_CERTFILE=${SSL_CERTFILE:-}
+      - SSL_KEYFILE=${SSL_KEYFILE:-}
+    hostname: vlg-app2
+    ports:
+      - "8007:8000"
+    volumes:
+      - ./data7:/data
+      - ./certs:/certs
+    user: "1000:1000"
+
